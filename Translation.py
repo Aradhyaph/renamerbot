@@ -13,10 +13,10 @@ class mr(object):
 ╰─────────────────⍟"""
 
     ABOUT_TXT = """
-╭─────────────────⍟
+╭──────────────⍟
  - CREATOR : <a href='https://t.me/Renamer_feedback_bot'>me</a>
  - SOURCE CODE : <a href='https://t.me/nokki_irunno_ippo_kittum'>Click here</a>
-╰───────────────────────────⍟
+╰────────────────────⍟
                                  """
 
 
