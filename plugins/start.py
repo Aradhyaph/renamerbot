@@ -19,7 +19,7 @@ async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
        photo="https://telegra.ph/file/8e3a9e3332abf7375f11f.jpg",
-       caption=f"""👋 Hai {message.from_user.mention} \ ഞാൻ ഒരു ചെറിയ rename bot ആണ് [ note : കൊല്ലരുത് \n 🤩""",
+       caption=f"""Hai🙂 {message.from_user.mention} ഞാൻ ഒരു ചെറിയ rename bot ആണ് [ note : കൊല്ലരുത് \n 🤩""",
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton("OWNER", url='https://t.me/Renamer_feedback_bot')
           ],[
