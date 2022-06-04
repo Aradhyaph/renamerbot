@@ -23,10 +23,11 @@ async def start(client, message):
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton("OWNER", url='https://t.me/Renamer_feedback_bot')
           ],[
-          InlineKeyboardButton('MOVIE REQUEST GROUP', url='https://t.me/POPCORN_SCOPE_MOVIEZ'),
+          InlineKeyboardButton('MOVIE REQUEST GROUP', url='https://t.me/POPCORN_SCOPE_MOVIEZ')
+          ],[
           InlineKeyboardButton('MAIN GROUP', url='https://t.me/POPCORN_SCOPE')
           ],[
-          InlineKeyboardButton(' About', callback_data='about'),
+          InlineKeyboardButton('ABOUT', callback_data='about'),
           ]]
           )
        )
