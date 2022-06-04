@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/MrMKN/RENAMER_BOT-5.git /RENAMER_BOT-5       
+  git clone https://github.com/Aradhyaph/renamerbot       
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /RENAMER_BOT-5
+  git clone $UPSTREAM_REPO /renamerbot
 fi
 cd /RENAMER_BOT-5
 pip3 install -U -r requirements.txt
