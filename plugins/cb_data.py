@@ -32,10 +32,10 @@ async def doc(bot,update):
      new_filename = name[1]
      file_path = f"downloads/{new_filename}"
      file = update.message.reply_to_message
-     ms = await update.message.edit("``` Trying To Download...```")
+     ms = await update.message.edit("```Downloading...```")
      c_time = time.time()
      try:
-     	path = await bot.download_media(message = file, progress=progress_for_pyrogram,progress_args=( "``` Trying To Download...```",  ms, c_time   ))
+     	path = await bot.download_media(message = file, progress=progress_for_pyrogram,progress_args=( "```downloading...```",  ms, c_time   ))
      except Exception as e:
      	await ms.edit(e)
      	return 
@@ -79,7 +79,7 @@ async def doc(bot,update):
                     thumb=ph_path, 
                     caption=caption, 
                     progress=progress_for_pyrogram,
-                    progress_args=( "```Trying To Uploading```",  ms, c_time   ))
+                    progress_args=( "```Uploading```",  ms, c_time   ))
         elif type == "video": 
             await bot.send_video(
 		    update.message.chat.id,
@@ -88,7 +88,7 @@ async def doc(bot,update):
 		    thumb=ph_path,
 		    duration=duration,
 		    progress=progress_for_pyrogram,
-		    progress_args=( "```Trying To Uploading```",  ms, c_time))
+		    progress_args=( "```Uploading```",  ms, c_time))
         elif type == "audio": 
             await bot.send_audio(
 		    update.message.chat.id,
@@ -97,7 +97,7 @@ async def doc(bot,update):
 		    thumb=ph_path,
 		    duration=duration,
 		    progress=progress_for_pyrogram,
-		    progress_args=( "```Trying To Uploading```",  ms, c_time   )) 
+		    progress_args=( "```Uploading```",  ms, c_time   )) 
      except Exception as e: 
          await ms.edit(e) 
          os.remove(file_path)
