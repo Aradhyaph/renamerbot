@@ -14,8 +14,17 @@ class mr(object):
 
     ABOUT_TXT = """
 ╭─────────────⍟
-- MY NAME     : RENAME ⚡️
-- MAIN GROUP  : @POPCORN_SCOPE
+   reply_markup=InlineKeyboardMarkup( [[
+    InlineKeyboardButton("OWNER", url='https://t.me/Renamer_feedback_bot')
+    ],[
+    InlineKeyboardButton('MOVIE REQUEST GROUP', url='https://t.me/POPCORN_SCOPE_MOVIEZ')
+    ],[
+    InlineKeyboardButton('MAIN GROUP', url='https://t.me/POPCORN_SCOPE')
+    ],[
+    InlineKeyboardButton('SOURCE CODE', url='https://t.me/nokki_irunno_ippo_kittum'),
+    ]]
+          )
+       )
 ╰─────────────────────────⍟
                                  """
 
