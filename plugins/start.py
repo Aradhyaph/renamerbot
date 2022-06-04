@@ -18,10 +18,10 @@ async def is_not_subscribed(client, message):
 async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
-       photo="https://telegra.ph/file/2e2a07e86066538ed7406.jpg",
-       caption=f"""👋 Hai {message.from_user.mention} \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 𝚂𝚞𝚙𝚙𝚘𝚛𝚝! \n𝙱𝙾𝚃 𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙱𝚢: @mr_MKN & @Mr_MKN_TG \n 🤩""",
+       photo="https://telegra.ph/file/8e3a9e3332abf7375f11f.jpg",
+       caption=f"""👋 Hai {message.from_user.mention} \ ഞാൻ ഒരു ചെറിയ rename bot ആണ് [ note : കൊല്ലരുത് \n 🤩""",
        reply_markup=InlineKeyboardMarkup( [[
-          InlineKeyboardButton("OWNER", url='https://t.me/POPCORN_SCOPE')
+          InlineKeyboardButton("OWNER", url='https://t.me/Renamer_feedback_bot')
           ],[
           InlineKeyboardButton('MOVIE REQUEST GROUP', url='https://t.me/POPCORN_SCOPE_MOVIEZ'),
           InlineKeyboardButton('MAIN GROUP', url='https://t.me/POPCORN_SCOPE')
