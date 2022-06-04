@@ -13,11 +13,9 @@ class mr(object):
 ╰─────────────────⍟"""
 
     ABOUT_TXT = """
-╭───────────⍟
+╭─────────────⍟
 - MY NAME     : RENAME ⚡️
 - MAIN GROUP  : @POPCORN_SCOPE
-- MOVIE REQUEST GROUP : @POPCORN_SCOPE_MOVIEZ
-
 ╰─────────────────────────⍟
                                  """
 
