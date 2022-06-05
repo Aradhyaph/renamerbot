@@ -18,7 +18,7 @@ async def is_not_subscribed(client, message):
 async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
-       photo="https://telegra.ph/file/8e3a9e3332abf7375f11f.jpg",
+       photo="https://telegra.ph/file/c98a85d3747c7ac6944cd.jpg",
        caption=f"""Hai 🙂 {message.from_user.mention} ഞാൻ ഒരു ചെറിയ rename bot ആണ്  \n """,
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton("FEEDBACK", url='https://t.me/Renamer_feedback_bot')
