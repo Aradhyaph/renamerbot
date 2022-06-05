@@ -19,9 +19,9 @@ async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
        photo="https://telegra.ph/file/8e3a9e3332abf7375f11f.jpg",
-       caption=f"""Hai🙂 {message.from_user.mention} ഞാൻ ഒരു ചെറിയ rename bot ആണ്  \n """,
+       caption=f"""Hai 🙂 {message.from_user.mention} ഞാൻ ഒരു ചെറിയ rename bot ആണ്  \n """,
        reply_markup=InlineKeyboardMarkup( [[
-          InlineKeyboardButton("OWNER", url='https://t.me/Renamer_feedback_bot')
+          InlineKeyboardButton("FEEDBACK", url='https://t.me/Renamer_feedback_bot')
           ],[
           InlineKeyboardButton('MOVIE REQUEST GROUP', url='https://t.me/POPCORN_SCOPE_MOVIEZ')
           ],[
@@ -42,8 +42,8 @@ async def send_doc(client, message):
     await message.reply_text(
         f"__What do you want me to do with this file?__\n**File Name** :- `{filename}`\n**File Size** :- `{filesize}`",
         reply_to_message_id = message.id,
-        reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("⚡️RENAME⚡️ ",callback_data = "rename"),
-        InlineKeyboardButton("🔴CANCEL🔴",callback_data = "cancel")  ]]))
+        reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("⚡️ℝ𝔼ℕ𝔸𝕄𝔼⚡️ ",callback_data = "rename"),
+        InlineKeyboardButton("ℂ𝔸ℕℂ𝔼𝕃",callback_data = "cancel")  ]]))
 
 
 @Client.on_callback_query()
