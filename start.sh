@@ -8,5 +8,5 @@ else
 fi
 cd /RENAMER_BOT-5
 pip3 install -U -r requirements.txt
-echo "🔥🔥🔥BOT IS STARTING🔥🔥🔥"
+echo "ഞാൻ on ആയി mwone 🙃"
 python3 bot.py
