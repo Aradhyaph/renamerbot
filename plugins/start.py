@@ -10,7 +10,7 @@ async def is_not_subscribed(client, message):
     await message.reply_text(
        text="**sorry bro നിങ്ങൾ ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്തിട്ടില്ല താഴെയുള്ള ബട്ടനിൽ ക്ലിക്ക് ചെയ്ത് join ചെയ്യൂ എന്നിട്ട് വീണ്ടും start കൊടുക്കൂ 🙏**",
        reply_markup=InlineKeyboardMarkup([
-           [ InlineKeyboardButton(text="📢Join My Group", url=client.invitelink)]
+           [ InlineKeyboardButton(text="Group ഇൽ കേറിക്കോ", url=client.invitelink)]
            ])
        )
     
