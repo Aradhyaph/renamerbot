@@ -20,7 +20,7 @@ async def rename(bot,update):
 	user_id = update.message.chat.id
 	date = update.message.date
 	await update.message.delete()
-	await update.message.reply_text("__Please enter the new filename...__",	
+	await update.message.reply_text("NEW FILE NAME പോരട്ടെ.....",	
 	reply_to_message_id=update.message.reply_to_message.id,  
 	reply_markup=ForceReply(True))
 	
@@ -69,7 +69,7 @@ async def doc(bot,update):
          img = Image.open(ph_path)
          img.resize((320, 320))
          img.save(ph_path, "JPEG")
-     await ms.edit("```Trying To Uploading```")
+     await ms.edit("```Uploading```")
      c_time = time.time() 
      try:
         if type == "document":
